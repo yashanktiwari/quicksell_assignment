@@ -1,0 +1,45 @@
+.datacards {
+  width: 90%;
+  height: fit-content;
+  margin-top: 1rem;
+  background-color: white;
+  border-radius: 0.3rem;
+  padding: 0.6rem 0.8rem 1rem 0.8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.cam-span {
+  color: gray;
+}
+
+.top-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.center-div {
+  width: 75%;
+  margin-top: 0.2rem;
+  font-weight: 600;
+  display: flex;
+}
+
+.bottom-div {
+  width: 100%;
+  color: gray;
+  margin-top: 0.5rem;
+}
+
+.tag-span {
+  margin-left: 0.5rem;
+  border: solid 1px rgba(206, 199, 199, 0.588);
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+}
+
+.datacard-status-logo {
+  margin-right: 0.4rem;
+}
